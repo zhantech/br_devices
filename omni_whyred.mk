@@ -23,7 +23,7 @@ $(call inherit-product, build/target/product/embedded.mk)
 #$(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/batik/config/common.mk)
 
 # Inherit Telephony packages
 #$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
